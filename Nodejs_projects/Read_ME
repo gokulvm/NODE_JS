@@ -1,0 +1,3 @@
+Node js used for server-side programming, and primarily deployed for non-blocking, event-driven servers, 
+such as traditional web sites and back-end API services, but was originally designed with real-time,
+push-based architectures in mind.
