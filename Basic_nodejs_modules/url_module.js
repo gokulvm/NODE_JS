@@ -1,5 +1,5 @@
 // Reading the file by location
-// Enter path in url
+// Enter file path in url
 http_var = require("http") 
 fs = require('fs')
 url = require("url")
