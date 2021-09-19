@@ -1,0 +1,7 @@
+http   	         ---      http module includes classes, methods and events to create Node.js http server.
+url   	         ---      url module includes methods for URL resolution and parsing.
+querystring   	 ---      querystring module includes methods to deal with query string.
+path   	         ---      path module includes methods to deal with file paths.
+formidable       ---      getting form from request side,parsing form data, especially file uploads.
+File system      ---      file system module helps us store, access, and manage data on our operating system.we can also perform asynchronous operations.
+mysql            ---      connect to mysql database.
