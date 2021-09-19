@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h1>Add User</h1>
+        <form action="/add_user" method="post">
+            User id    <input type="number" name = "u_id" id= "u_id" size=20><br><br>
+            Name       <input type="text" name = "name" id= "name" size=20><br><br>
+            DOB        <input type="date" name = "dob" id= "dob" size=20><br><br>
+            Profession <input type="text" name = "prof" id= "prof" size=20><br><br>
+            <button type="submit" name="submit">Add user</button>
+
+        </form>
+
+        <h1>Get Detail about specific user</h1>
+        <form action = "/fetch_specific_user" method="POST"> 
+            Enter the user id <input type="number" name="f_u_id" id= "f_u_id"><br><br>
+            <button type="submit" name="submit">Get Details</button>
+        </form>
+
+
+        <h1>Delete user detail by id</h1>
+        <form action = "/del_user" method="POST"> 
+            Enter the user id <input type="number" name="d_u_id" id= "d_u_id"><br><br>
+            <button type="submit" name="submit">Get Details</button>
+        </form>
+
+
+        <h1>Show all user details</h1>
+        <form action = "/all_user" method="POST"> 
+            <button type="submit" name="submit">Show all users</button>
+        </form>
+    </body>
+</html>
